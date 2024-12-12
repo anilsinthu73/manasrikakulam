@@ -1,0 +1,43 @@
+.festival-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space between the cards */
+    align-items: center; /* Center vertically */
+    margin: 20px; /* Margin around the container */
+  }
+  
+  .festival-image-card,
+  .festival-details-card {
+    background-color: white; /* Background color for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    padding: 20px; /* Padding inside cards */
+    width: 45%; /* Width for each card */
+    margin: 10px; /* Margin between the cards */
+  }
+  
+  .festival-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .festival-title {
+    font-size: 1.5rem; /* Title font size */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  .festival-significance {
+    font-size: 1rem; /* Significance font size */
+    color: #555; /* Gray color for significance text */
+    margin: 5px 0; /* Margin around significance */
+  }
+  
+  .festival-description {
+    font-size: 1rem; /* Description font size */
+    margin-top: 10px; /* Margin on top */
+    line-height: 1.5; /* Line height for readability */
+  }
+  
+  
+  
+  
+  
