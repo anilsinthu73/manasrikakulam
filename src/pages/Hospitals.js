@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Search } from 'lucide-react';
 import HospitalCard from '../components/HospitalCard';
 
 const hospitals = [
@@ -78,14 +77,13 @@ function Hospitals() {
   return (
     <div className="min-h-screen py-20 bg-gray-50">
       {/* Header */}
-      <header className="mx-auto relative left-28 text-white py-16">
-        <div className="container mx-auto  px-4">
-          <div className="max-w-2xl px-4 relative">
-            <Search className="absolute left-5 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+      <header className="lg:px-10 px-5 text-white py-12">
+        <div className="px-4 py-4">
+          <div className="w-[100%] px-2">
             <input
               type="text"
               placeholder="Search by hospital name or specialty..."
-              className="w-full pl-12 pr-4 py-4 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 border border-blue-300 shadow-md shadow-blue-300"
+              className="w-[100%] px-2 py-4 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 border border-blue-300 shadow-md shadow-blue-300"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -94,8 +92,8 @@ function Hospitals() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <main className=" px-4 py-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 items-center">
           {filteredHospitals.map((hospital, index) => (
             <HospitalCard key={index} {...hospital} />
           ))}
