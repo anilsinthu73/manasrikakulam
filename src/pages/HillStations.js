@@ -40,8 +40,8 @@ function Hillstations() {
           <div className="flex items-center gap-3">
             <MountainIcon className="w-10 h-10 text-blue-600" />
             <div>
-              <h1 className="text-4xl font-bold text-gray-900">Hill Stations Near</h1>
-              <p className="mt-2 text-lg text-gray-600">Discover our beautiful Mountains</p>
+              <h1 className="lg:text-4xl text-3xl font-bold text-gray-900">Hill Stations Near</h1>
+              <p className="mt-2 lg:text-lg text-md text-gray-600">Discover our beautiful Mountains</p>
             </div>
           </div>
         </div>

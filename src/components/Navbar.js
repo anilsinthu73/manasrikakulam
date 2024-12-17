@@ -30,17 +30,20 @@ export const Navbar = () => {
             </p>
 
             {/* Public Utilities Dropdown */}
-            <div className="relative">
+            <div
+              className="relative"
+              onMouseEnter={() => setPublicUtilitiesOpen(true)}
+              onMouseLeave={() => setPublicUtilitiesOpen(false)}
+            >
               <button
                 className="inline-flex items-center px-1 pt-2 text-[16px] font-medium border-b-2 border-transparent hover:border-gray-300"
-                onClick={() => setPublicUtilitiesOpen(!publicUtilitiesOpen)}
               >
                 <GlobeIcon className="h-4 w-4 mr-1" />
                 Public Utilities
                 <ChevronDownIcon className="h-4 w-4 ml-1" />
               </button>
               {publicUtilitiesOpen && (
-                <ul className="absolute left-0 top-full mt-1 w-[200px] bg-white text-[16px] shadow-lg border border-gray-200 rounded-md flex flex-col items-start gap-3">
+                <ul className="absolute left-0 top-full w-[200px] bg-white text-[16px] shadow-lg border border-gray-200 rounded-md flex flex-col items-start gap-3">
                   <li className="ml-0 px-4 py-2 hover:bg-[#f1f1f1] hover:text-[#432fa3]">
                     <Link to="/banks">Banks</Link>
                   </li>
@@ -63,17 +66,20 @@ export const Navbar = () => {
             </p>
 
             {/* Tourism Dropdown */}
-            <div className="relative">
+            <div
+              className="relative"
+              onMouseEnter={() => setTourismOpen(true)}
+              onMouseLeave={() => setTourismOpen(false)}
+            >
               <button
                 className="inline-flex items-center px-1 pt-2 text-[16px] font-medium border-b-2 border-transparent hover:border-gray-300"
-                onClick={() => setTourismOpen(!tourismOpen)}
               >
                 <MapPinIcon className="h-4 w-4 mr-1" />
                 Tourism
                 <ChevronDownIcon className="h-4 w-4 ml-1" />
               </button>
               {tourismOpen && (
-                <ul className="absolute left-0 top-full mt-1 w-[180px] bg-white shadow-lg border border-gray-200 rounded-md flex flex-col items-start gap-3">
+                <ul className="absolute left-0 top-full w-[180px] bg-white shadow-lg border border-gray-200 rounded-md flex flex-col items-start gap-3">
                   <li className="ml-0 px-4 py-2 hover:bg-[#f1f1f1] hover:text-[#432fa3]">
                     <Link to="/parks">Parks</Link>
                   </li>
@@ -199,5 +205,5 @@ export const Navbar = () => {
         </div>
       )}
     </nav>
-  );
-};
+  )
+}

@@ -66,10 +66,10 @@ export default function Colleges() {
     <div className="min-h-screen bg-gray-50 py-20 px-4 sm:px-2 lg:px-4 w-[100%]">
       <div className="w-[100%] mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="lg:text-4xl text-3xl font-bold text-gray-900 mb-4">
             Educational Institutions in Srikakulam
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="lg:text-lg text-md text-gray-600">
             Discover top colleges and universities in Srikakulam district
           </p>
         </div>

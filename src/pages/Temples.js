@@ -30,8 +30,8 @@ export const Temples = () => {
   return (
     <div>
   <header className=" text-black py-24">
-    <h1 className="text-3xl font-bold px-4">Temples in Srikakulam District</h1>
-    <p className="text-lg mt-2 px-4">Explore the famous temples in Srikakulam with details and locations.</p>
+    <h1 className="lg:text-3xl text-2xl font-bold px-4">Temples in Srikakulam District</h1>
+    <p className="lg:text-lg md:text-md sm:text-sm mt-2 px-4">Explore the famous temples in Srikakulam with details and locations.</p>
   </header>
   <main className="container mx-auto mt-[-60px] px-4">
     <div className="mb-4">
