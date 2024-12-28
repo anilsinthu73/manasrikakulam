@@ -1,29 +1,49 @@
 .food-card {
-    display: flex;
-    background-color: white; 
-    border-radius:10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    overflow: hidden; 
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.food-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-details {
+  padding: 10px;
+}
+
+.food-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.food-description {
+  font-size: 1rem;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Responsive Design for Food Card */
+@media (max-width: 900px) {
+  .food-card {
+      flex-direction: column;
+      align-items: center;
   }
-  
   .food-image {
-    width: 200px; 
-    height: 200px; 
-    object-fit: cover; 
+      width: 100%;
+      height: auto;
   }
-  
-  .food-details {
-    padding:10px;
-  }
-  
+}
+
+@media (max-width: 600px) {
   .food-title {
-    font-size: 1.5rem; 
-    font-weight: bold; 
+      font-size: 1.25rem;
   }
-  
   .food-description {
-    font-size: 1rem; 
-    margin-top: 10px;
-    line-height: 1.5; 
+      font-size: 0.9rem;
   }
-  
+}
