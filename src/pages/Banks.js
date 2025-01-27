@@ -1,8 +1,8 @@
-import React from 'react'
-import {Building2} from 'lucide-react'
+import { Building2 } from 'lucide-react';
+import React from 'react';
 import BankCard from '../components/BankCard';
-import SBI from '../images/SbI.jpeg'
-import Andhra from '../images/andhraBank.jpg'
+import SBI from '../images/SbI.jpeg';
+import Andhra from '../images/andhraBank.jpg';
 const Banks = () => {
    const banks= [
     {
@@ -19,13 +19,13 @@ const Banks = () => {
     },
     {
       id: 2,
-      name: "ANDHRA BANK, IFSC: ANDB0000166",
-      type: "Semi Urban",
+      name: "ANDHRA BANK Main Branch, IFSC: ",
+      type: " Urban",
       hours: "Mon-Sat: 9:00 AM - 4:30 PM\n2nd and 4th Sat holiday",
       Email:"bm0166[at]andhrabank[dot]co[dot]in",
       phone: "08941-255128",
       image: Andhra,
-      address: "ANDHRA BANK, G.SIGADAM Mandal, G.SIGADAM",
+      address: "ANDHRA BANK, GT Raod Srikakulam",
       mapLink:"https://www.google.co.in/maps/search/andhra+bank+g.sigadam+mandal+g.sigadam/@18.3783263,83.6702508,15z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D",
       website:" https://www.andhrabank.in"
     },
