@@ -19,7 +19,7 @@ export default function CollegeCard({
         <img
           src={imageUrl}
           alt={name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
         <div className="absolute top-0 left-0 bg-blue-600 text-white px-3 py-1 rounded-br-lg">
           {type}
@@ -31,11 +31,11 @@ export default function CollegeCard({
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-blue-600" />
             <a
-            href={mapLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700"
-         >{address}</a>
+              href={mapLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700"
+            >{address}</a>
           </div>
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4 text-blue-600" />
@@ -51,11 +51,11 @@ export default function CollegeCard({
             <GraduationCap className="w-4 h-4 text-blue-600" />
             <span className="font-semibold text-gray-900">Popular Courses:</span>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {courses.map((course) => (
               <span
                 key={course}
-                className="bg-blue-50 text-blue-700 text-xs px-2 py-1 rounded-full"
+                className="bg-blue-50 text-blue-700 text-xs px-2 py-1 rounded-full text-center"
               >
                 {course}
               </span>
