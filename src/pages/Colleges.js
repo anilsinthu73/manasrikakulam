@@ -16,7 +16,7 @@ const colleges = [
   },
   {
     name: "Aditya Institute Of Technology and Management",
-    type: " Engineering",
+    type: "Engineering",
     address: "Tekkali, Srikakulam, Andhra Pradesh",
     phone: "+9192466 57908",
     email: "info@adityatekkali.edu.in",
