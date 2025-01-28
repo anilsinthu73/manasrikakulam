@@ -304,7 +304,7 @@ const colleges = [
     mapLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.083509964791!2d83.87230807500754!3d18.29778878275307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c14eebfed30d1%3A0xebd36dcc339f962d!2sGovernment%20Polytechnic%2C%20Srikakulam!5e0!3m2!1sen!2sin!4v1737978490351!5m2!1sen!2sin",
     },
 ];
-const collegeTypes = ["All", "University", "  ", "Degree College", "Medical", "Junior College", "Polytechnic","Agriculture","Eductaion","Pharmacy","Dental"];
+const collegeTypes = ["All", "University", "Engineering", "Degree College", "Medical", "Junior College", "Polytechnic","Agriculture","Eductaion","Pharmacy","Dental"];
 
 export default function Colleges() {
   const [searchQuery, setSearchQuery] = useState("");
