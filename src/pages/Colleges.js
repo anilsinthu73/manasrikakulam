@@ -43,7 +43,7 @@ const colleges = [
     phone:"+91-99896 23822",
     email:"info@kvkamadalavalasa-angrau.org",
     website:"https://www.kvkamadalavalasa-angrau.org/",
-    imageUrl:"/assets/angrau.jpg",
+    imageUrl:"/assets/agri-naira.jpg",
     courses:["B.Sc Agriculture","M.Sc Agriculture","Ph.D Agriculture"],
     mapLink: "https://www.google.co.in/maps/place/Acharya+NG+Rangarao+Agricultural+College"
 
