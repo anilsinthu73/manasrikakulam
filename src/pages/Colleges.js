@@ -256,7 +256,7 @@ const colleges = [
       email:"gpw088@gmail.com",
       website:"https://govtpolyforwomensrikakulam.ac.in/",
       imageUrl:"https://govtpolyforwomensrikakulam.ac.in/media/govtpolyforwomensrikakulam_ac_in/banner_new.jpeg",
-      courses:[" Computer    (CME)","  Mechanical    (ME)","  Electronics and Communictaion Enginnering (ECE)", " Civil    (CE)", " Electrical and Electronics    (EEE)"],
+      courses:[" Computer Engineering (CME)","  Mechanical (ME)","  Electronics and Communictaion (ECE)", " Civil (CE)", " Electrical and Electronics (EEE)"],
       mapLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.083509964791!2d83.87230807500754!3d18.29778878275307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c14eebfed30d1%3A0xebd36dcc339f962d!2sGovernment%20Polytechnic%2C%20Srikakulam!5e0!3m2!1sen!2sin!4v1737978490351!5m2!1sen!2sin"
     },
     {
@@ -274,7 +274,7 @@ const colleges = [
       name: "Government Polytechnic College Amadalavalasa",
       type: "Polytechnic",
       address: "Amadalavalasa -532185, \n Srikakulam District Andhra Pradesh",
-      phone: "",
+      phone: "+91 XXXXXXXXXXX",
       email: "gpac@gmail.com",
       website:"https://gptamadalavalasa.com/",  
       imageUrl: "/assets/gptd.jpg",
@@ -287,7 +287,7 @@ const colleges = [
       address: "Palakonda, Srikakulam District, Andhra Pradesh 532440",
       phone: "9440258086",
       email: "palakonda.jkc2@gmail.com",
-      imageUrl: "/assets/gdcp.jpg",
+      imageUrl: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000",
       courses: ["B.Sc", "B.Com", "B.A", "BBA", "BCA"],
       website:"https://gdcpalakonda.ac.in/",
       mapLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.083509964791!2d83.87230807500754!3d18.29778878275307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c14eebfed30d1%3A0xebd36dcc339f962d!2sGovernment%20Polytechnic%2C%20Srikakulam!5e0!3m2!1sen!2sin!4v1737978490351!5m2!1sen!2sin", 
@@ -299,10 +299,9 @@ const colleges = [
     phone: "8096907535",
     email: "gpttekkali@gmail.com",
     website:"https://govtpolytechnictekkali.ac.in/",
-    imageUrl: "https://govtpolytechnictekkali.ac.in/images/govtpolytechnictekkali_ac_in/govtpolytechnictekkali_ac_in_logo.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000",
     courses: [" Civil    (ME)", " Electrical and Electronics    (EEE)"],
     mapLink:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.083509964791!2d83.87230807500754!3d18.29778878275307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3c14eebfed30d1%3A0xebd36dcc339f962d!2sGovernment%20Polytechnic%2C%20Srikakulam!5e0!3m2!1sen!2sin!4v1737978490351!5m2!1sen!2sin",
-
     },
 ];
 const collegeTypes = ["All", "University", "  ", "Degree College", "Medical", "Junior College", "Polytechnic","Agriculture","Eductaion","Pharmacy","Dental"];
