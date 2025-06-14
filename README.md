@@ -10,12 +10,14 @@ The website provides information about the district, government services, public
 
 ## 📌 Features
 
-- ✅ District Profile – Overview of Srikakulam’s geography, population, economy
-- 📢 Latest Notifications – Recruitment, merit lists, tenders, and more
-- 💼 Public Services – OBPMS (building permits), municipal taxes, NREGA reports
-- 🔗 Government Links – Agriculture, education, health, and social services
-- 📱 Responsive Design – Built with Bootstrap for a mobile-first experience
-
+- ✅ **District Profile** – Overview of Srikakulam’s geography, population, economy, and administrative divisions
+- 🗺️ **Famous For** – Known for Arasavalli Sun Temple, Srikurmam, historic temples, and scenic coastal areas
+- 🏛️ **Public Utilities** – Information on Banks, Government Offices, Parks, Colleges, Schools, and Health Centers
+- 👨‍🎓 **Education** – Listings of major schools, colleges, technical institutions, and universities in the district
+- 🔗 **Government Links** – Quick access to departments like agriculture, education, health, welfare, and more
+- 🧑‍🤝‍🧑 **Notable Personalities** – Highlights of influential leaders, freedom fighters, and public figures from Srikakulam
+- 🏞️ **Tourist Places** – Details on temples, beaches, historical landmarks, eco-tourism sites, and cultural festivals
+- 📱 **Responsive Design** – Mobile-first interface built with Bootstrap, ensuring accessibility on all devices
 ---
 
 ## 🛠️ Tech Stack
