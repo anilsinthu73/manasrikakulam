@@ -32,13 +32,21 @@ The website provides information about the district, government services, public
 
 ```
 manasrikakulam/
-├── assets/              # Static files (images, stylesheets, scripts)
-├── data/                # JSON files for notices, services, contacts
-├── includes/            # Reusable components (header, footer, navigation)
-├── pages/               # Content pages (about, departments, schemes)
-├── index.html           # Homepage
-├── LICENSE
-└── README.md
+├── public/                         # Publicly accessible static files
+│   ├── assets/                     # Images used across the website
+│   ├── index.html                  # Root HTML file (entry point)
+│   └── favicon.ico                 # Site favicon and icons
+│
+├── src/                            # Source code for the website
+│   ├── components/                 # Reusable UI components (header, footer, nav)
+│   ├── pages/                      # Individual content pages (about, services, etc.)
+│   ├── styles/
+|   |-- images/                     # CSS or SCSS files for styling
+│   └── data/                       # JSON files for notices, services, announcements
+│
+├── LICENSE                         # License declaration
+└── README.md                       # Project overview and documentation
+
 ```
 
 ---
