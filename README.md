@@ -88,9 +88,9 @@ We welcome contributions! Here's how to help:
 
 ---
 
-## 🔍 Roadmap
+## 🔍 Roadmap -- Improvements
 
-- [x] Static HTML version
+- [*] Static HTML version
 - [ ] Add Telugu/Odia language support
 - [ ] Admin panel for managing content
 - [ ] Integrate dynamic OBPMS and NREGA APIs
