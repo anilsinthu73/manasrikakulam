@@ -1,70 +1,109 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌐 Srikakulam District Official Website
 
-## Available Scripts
+**Website:** [https://srikakulam.northandhra.online](https://srikakulam.northandhra.online)  
+**Repository:** This project hosts the codebase for the official digital portal of the **Srikakulam District**, Andhra Pradesh, India.
 
-In the project directory, you can run:
+The website provides information about the district, government services, public notices, updates, and useful links to local and national schemes. It serves as a digital bridge between the administration and the citizens.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✅ District Profile – Overview of Srikakulam’s geography, population, economy
+- 📢 Latest Notifications – Recruitment, merit lists, tenders, and more
+- 💼 Public Services – OBPMS (building permits), municipal taxes, NREGA reports
+- 🔗 Government Links – Agriculture, education, health, and social services
+- 📱 Responsive Design – Built with Bootstrap for a mobile-first experience
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5
+- **Backend (Optional):** Node.js(for dynamic features)
+- **Hosting:** Vercel
+- **Data:** JSON/Markdown files for dynamic notices and links
+- **Version Control:** Git & GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+manasrikakulam/
+├── assets/              # Static files (images, stylesheets, scripts)
+├── data/                # JSON files for notices, services, contacts
+├── includes/            # Reusable components (header, footer, navigation)
+├── pages/               # Content pages (about, departments, schemes)
+├── index.html           # Homepage
+├── LICENSE
+└── README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/anilsinthu73/manasrikakulam.git
+cd manasrikakulam
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 2. Launch locally
 
-## Learn More
+Use any static server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### 3. Customize Content
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Edit HTML pages in the `/pages/` folder or update content in the `/data/` folder to add new announcements, services, or links.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✍️ Contributing
 
-### Making a Progressive Web App
+We welcome contributions! Here's how to help:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork this repository
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Make your changes
+4. Commit: `git commit -m "Add your feature"`
+5. Push: `git push origin feature/YourFeature`
+6. Submit a Pull Request
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔍 Roadmap
 
-### Deployment
+- [x] Static HTML version
+- [ ] Add Telugu/Odia language support
+- [ ] Admin panel for managing content
+- [ ] Integrate dynamic OBPMS and NREGA APIs
+- [ ] SEO and accessibility improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project has been collaboratively developed by the students of **JNTU-GV College of Engineering Vizianagaram (JNTU-GV CEV)** as part of an academic initiative.
+
+All official content, data, and media used in this project are the intellectual property of the **Government of Srikakulam District** and its respective departments. The website is intended solely for public informational use and educational purposes.
+
+Unauthorized reproduction or commercial use of official content is strictly prohibited without permission from the concerned authorities.
+
+
+## 📞 Contact
+
+- **Official District Portal:** [https://srikakulam.ap.gov.in](https://srikakulam.ap.gov.in)  
+- **Report Issues:** [GitHub Issues](https://github.com/yourusername/srikakulam.northandhra.online/issues)
+
+---
+
+> **Made for the Citizens of Srikakulam 🇮🇳 | Powered by Open Source**
